@@ -1,0 +1,40 @@
+Java
+- Compiled language (before it is executed it needs to be compiled with a compiler)
+--- Compiled Java code can run on any JVM (Java virtual machine)
+--- Source Code -> Java Compiler -> Byte Code -> JVM -> (Windows, Linux, Mac)
+- OOP Language, class oriented
+- Static Language (code checks at compile time, setting variable types on definition)
+- Strong Typed Language (cannot mix data types: string + int = error)
+- Single Threaded, can explicitly create more threads
+- Strengths
+--- Static and Strong means its is a safe language
+--- OOP makes abstraction, using design patterns and scalability easy
+--- Platform independent (WORA)
+--- Supports multithreading
+- Weaknesses
+--- Kinda slow
+--- Static and Strong means its pretty verbose
+--- Prone to overengineering
+--- Code needs to be compiled to run
+--- Paid commercial license
+
+
+How to run Java:
+- Windows: download IDE (intellij, eclipse), install JDK, setup IDE, run code.
+- Debian:
+--- Version 8:
+----- apt install default-jdk
+--- Version 11:
+----- echo 'deb http://ftp.debian.org/debian stretch-backports main' | sudo tee /etc/apt/sources.list.d/stretch-backports.list
+----- apt install openjdk-11-jdk
+--- Oracle Java:
+----- Google it.
+- Execute Java options:
+--- Java Starting point (class and main method):
+----- public class Problems {
+-----     public static void main(String[] args){
+-----         System.out.println("Hello World");
+-----     }
+----- }
+--- Compile & Run Java: `java problems.java`
+

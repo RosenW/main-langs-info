@@ -1,0 +1,4 @@
+C#
+- sudo apt install mono-complete
+- mcs problems.cs
+- mono problems.exe
