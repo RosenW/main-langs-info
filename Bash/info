@@ -1,0 +1,5 @@
+- Shebang
+--- '#!/bin/bash'
+- Run Bash
+--- using shebang: './problems.sh'
+--- using bash command: 'bash problem.sh'

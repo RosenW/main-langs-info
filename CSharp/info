@@ -2,3 +2,9 @@ C#
 - sudo apt install mono-complete
 - mcs problems.cs
 - mono problems.exe
+
+- Example:
+--- root@Nimbus2000:/home/rosen/Desktop/newstuff/main-langs-info/CSharp# mcs problems.cs 
+--- root@Nimbus2000:/home/rosen/Desktop/newstuff/main-langs-info/CSharp# mono problems.exe 
+--- Hello
+

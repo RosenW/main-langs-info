@@ -1,0 +1,7 @@
+- PHP file:
+--- <?php
+---     print("HELLO\n");
+--- ?>
+- Run PHP:
+--- php problems.php
+
